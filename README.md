@@ -3,7 +3,7 @@ Memory Management Simulator
 
 ## Project Description
 
-This project is developed for our COME381 course. The goal is to simulate different memory allocation algorithms and compare how they manage available memory.
+This project is developed for our COME361 course. The goal is to simulate different memory allocation algorithms and compare how they manage available memory.
 
 ## Problem Definition
 
