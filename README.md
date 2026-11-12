@@ -60,9 +60,32 @@ To compare all algorithms directly, run:
 ```bash
 python main.py --compare
 ```
+### 6. Testing and Validation
 
-### 6. Current Project Status
+A new test_memory.py module was added using Python's built-in unittest framework to verify the First Fit, Best Fit, and Worst Fit algorithms.
+
+Five test scenarios were implemented:
+
+  1- Normal memory allocation.
+
+  2- Insufficient memory.
+
+  3- External fragmentation.
+
+  4- Empty memory.
+
+  5- Original memory input preservation.
+
+The tests also verify memory allocation results and related metrics.
+
+Run Tests:
+
+python -m unittest test_memory.py -v
+
+A successful run displays OK in the terminal.
+
+### 7. Current Project Status
 
 The three memory allocation algorithms are integrated into the main program. Users can enter custom data, compare allocation results, view memory statistics, and export reports.
 
-Additional test scenarios and automated testing will be developed as part of the next stage.
+5 test scenarios have been implemented.
